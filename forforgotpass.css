@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f8;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif
+}
+
+div{
+    background-color: lightgray;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    cursor: grab;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(85, 85, 222);
+}
